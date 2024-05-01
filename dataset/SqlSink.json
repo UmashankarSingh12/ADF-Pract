@@ -1,0 +1,17 @@
+{
+	"name": "SqlSink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LSaniketdatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "departmenty"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
